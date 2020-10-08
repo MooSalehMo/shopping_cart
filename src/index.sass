@@ -1,0 +1,41 @@
+html
+  font-size: 62.5%
+  box-sizing: border-box
+body ,
+#root
+  margin: 0
+  height: 100vh
+  a:hover
+    color: #ff8000
+    transition: all .5s ease-in-out
+body,
+input,
+textarea,
+select
+  font-size: 1.6rem
+  font-family: Helvetica,Arial, sans-serif
+.grid-container
+  display: grid
+  grid-template-areas: "header" "main" "footer"
+  grid-template-rows: 5rem 1fr 5rem
+  grid-template-columns: 1fr
+  height: 100%
+  header
+    grid-area: header
+    background-color: #203040
+    color: #fff
+    display: flex
+    align-items: center
+    padding: .5rem
+    a
+      color: #fff
+      text-decoration: none !important
+  main
+    grid-area: main
+  footer
+    grid-area: footer
+    background-color: #203040
+    color: #fff
+    display: flex
+    justify-content: center
+    align-items: center
