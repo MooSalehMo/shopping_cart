@@ -5,15 +5,17 @@ body ,
 #root
   margin: 0
   height: 100vh
+  background-color: #eee
   a:hover
     color: #ff8000
     transition: all .5s ease-in-out
 body,
 input,
+button,
 textarea,
 select
+  font-family: 'Philosopher', Helvetica,Arial, sans-serif
   font-size: 1.6rem
-  font-family: Helvetica,Arial, sans-serif
 .grid-container
   display: grid
   grid-template-areas: "header" "main" "footer"
@@ -32,6 +34,49 @@ select
       text-decoration: none !important
   main
     grid-area: main
+    .content
+      display: flex
+      flex-wrap: wrap
+      .main
+        flex: 3 60rem
+        .products
+          display: flex
+          flex-wrap: wrap
+          justify-content: center
+          align-items: center
+          margin: 0
+          list-style-type: none
+          li
+            flex: 0 1 29rem
+            height: 47rem
+            padding: 1rem
+            .product
+              display: flex
+              flex-direction: column
+              justify-content: space-between
+              height: 100%
+              a
+                text-decoration: none !important
+                max-height: 37rem
+                max-width: 37rem
+                img
+                  height: 100% !important
+                  width: 100% !important
+              .product-price
+                display: flex
+                justify-content: space-between
+                align-items: center
+                div, button
+                  text-align: center
+                  flex: 1
+                div
+                  font-size: 2rem
+                button
+                  padding: .5rem
+                  border: .1rem #c0c0 solid
+                  font-size: 1.6rem
+      .sidebar
+        flex: 1 20rem
   footer
     grid-area: footer
     background-color: #203040
