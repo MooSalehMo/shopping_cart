@@ -49,6 +49,3 @@ export default class Cart extends Component {
     );
   }
 }
-
-
-// this is component cart
