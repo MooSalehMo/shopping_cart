@@ -14,7 +14,7 @@ input,
 button,
 textarea,
 select
-  font-family: 'Philosopher', Helvetica,Arial, sans-serif
+  font-family: 'Roboto', sans-serif
   font-size: 1.6rem
 .grid-container
   display: grid
@@ -60,7 +60,7 @@ select
                 max-height: 37rem
                 max-width: 37rem
                 img
-                  height: 100% !important
+                  height: 100%
                   width: 100% !important
               .product-price
                 display: flex
@@ -75,8 +75,44 @@ select
                   padding: .5rem
                   border: .1rem #c0c0 solid
                   font-size: 1.6rem
+        .filter
+          display: flex
+          padding: 1rem
+          margin: 1rem
+          border-bottom: .1rem #bbb solid
+          justify-content: space-between
+          div
+            flex: 1
       .sidebar
         flex: 1 20rem
+        .cart
+          display: flex
+          padding: 1rem
+          margin: 1rem
+        .cart-header
+          border-bottom: .1rem #bbb solid
+        .cart-items
+          width: 100%
+          padding: 0
+          list-style-type: none
+          li
+            display: flex
+            div
+              padding: .5rem
+              &:last-child
+                flex: 1
+            .right
+              text-align: right
+          img
+            width: 5rem
+        .total 
+          display: flex 
+          width: 100% 
+          align-items: center
+          justify-content: space-between
+          &>div , &> button
+            flex: 1 
+            font-size: 2rem
   footer
     grid-area: footer
     background-color: #203040
