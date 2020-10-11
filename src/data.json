@@ -3,7 +3,7 @@
             "_id": "dress 1",
             "title": "Dress 1",
             "image": "/images/dress1.jpg",
-            "decription": "About dress 1",
+            "decription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
             "price": 19,
             "availableSizes": ["XL", "XXL"]
         },
@@ -11,7 +11,7 @@
             "_id": "dress 2",
             "title": "Dress 2",
             "image": "/images/dress2.jpg",
-            "decription": "About dress 2",
+            "decription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
             "price": 12,
             "availableSizes": ["XL", "XXL", "M"]
         },
@@ -19,7 +19,7 @@
             "_id": "dress 3",
             "title": "Dress 3",
             "image": "/images/dress3.jpg",
-            "decription": "About dress 3",
+            "decription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
             "price": 27,
             "availableSizes": ["XL", "XXL"]
         },
@@ -27,7 +27,7 @@
             "_id": "dress 4",
             "title": "Dress 4",
             "image": "/images/dress4.jpg",
-            "decription": "About dress 4",
+            "decription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
             "price": 45,
             "availableSizes": ["XL", "L", "XXL"]
         },
@@ -35,7 +35,7 @@
             "_id": "dress 5",
             "title": "Dress 5",
             "image": "/images/dress5.jpg",
-            "decription": "About dress 5",
+            "decription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
             "price": 15,
             "availableSizes": ["XL", "M", "XXL"]
         },
@@ -43,7 +43,7 @@
             "_id": "dress 6",
             "title": "Dress 6",
             "image": "/images/dress6.jpg",
-            "decription": "About dress 6",
+            "decription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
             "price": 22,
             "availableSizes": ["XL", "XXL"]
         }
