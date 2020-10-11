@@ -10,8 +10,11 @@
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-modal": "^3.11.2",
+    "react-reveal": "^1.2.2",
     "react-scripts": "3.4.3",
-    "redux": "^4.0.5"
+    "redux": "^4.0.5",
+    "reveal": "0.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
