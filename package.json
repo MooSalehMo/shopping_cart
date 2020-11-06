@@ -18,7 +18,10 @@
     "react-reveal": "^1.2.2",
     "react-scripts": "^4.0.0",
     "redux": "^4.0.5",
-    "shortid": "^2.2.15"
+    "shortid": "^2.2.15",
+    "react-scripts": "3.4.3",
+    "redux": "^4.0.5",
+    "reveal": "0.0.4"
   },
   "scripts": {
     "server": "nodemon server.js",

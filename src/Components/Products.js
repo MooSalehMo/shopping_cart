@@ -1,8 +1,15 @@
 import React, { Component } from 'react'
 import formatCurrency from '../util'
+<<<<<<< HEAD
 import Modal from 'react-modal'
 import Fade from 'react-reveal/Fade'; 
 import Zoom from 'react-reveal/Zoom';
+=======
+import Fade from 'react-reveal/Fade'; 
+import Zoom from 'react-reveal/Zoom'; 
+import Modal from 'react-modal'
+
+>>>>>>> 7567650acf192da6fa3102d28af4cdb56a88272a
 
 export default class Products extends Component {
   constructor(props) {
@@ -41,12 +48,22 @@ export default class Products extends Component {
             ))}
           </ul> 
         </Fade>
+<<<<<<< HEAD
         {product && (
           <Modal isOpen={true}>
             <Zoom>
               <button className="close-modal fa fa-close" onClick={this.closeModal}></button>
                 <div className="product-detials">
                   <img src={product.image} alt={product.title} /> 
+=======
+        {
+          product && (
+            <Modal isOpen={true}>
+              <Zoom>
+                <button className="close-modal fa fa-close" onClick={this.closeModal}></button>
+                <div className="product-detials">
+                  <img src={product.image} alt={product.title} ></img> 
+>>>>>>> 7567650acf192da6fa3102d28af4cdb56a88272a
                   <div className="product-detials-dicription">
                     <strong className="title"><p>{product.title}</p></strong>
                     <p className="decription">{product.decription}</p>
